@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="889c3d20-9942-46f1-b511-0bf48fe71e4a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.form.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/b-text1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/微信.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/手机.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/邮箱.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680031173798</updated>
-      <workItem from="1680031177646" duration="2331000" />
+      <workItem from="1680031177646" duration="2741000" />
     </task>
     <servers />
   </component>
