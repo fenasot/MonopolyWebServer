@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/form/js/verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/home2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Nez4ezU2a0wMcR9LFzD7CsEen5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680039146847</updated>
       <workItem from="1680039151246" duration="315000" />
-      <workItem from="1680041607833" duration="3010000" />
+      <workItem from="1680041607833" duration="4446000" />
     </task>
     <servers />
   </component>
