@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="889c3d20-9942-46f1-b511-0bf48fe71e4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/MonoWeb.data.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/MonoWeb.framework.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/MonoWeb.loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/MonoWeb.wasm.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/Monopoly.data.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/Monopoly.framework.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/Monopoly.loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/Build/Monopoly.wasm.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/StreamingAssets/UnityServicesProjectConfiguration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/fullscreen-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/progress-bar-empty-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/progress-bar-empty-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/progress-bar-full-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/progress-bar-full-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/unity-logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/unity-logo-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/TemplateData/webgl-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Monopoly/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.form.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.form.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/_menu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/_tree.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fullPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fullPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/more.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680031173798</updated>
       <workItem from="1680031177646" duration="3825000" />
-      <workItem from="1680039479748" duration="920000" />
+      <workItem from="1680039479748" duration="1667000" />
     </task>
     <servers />
   </component>
