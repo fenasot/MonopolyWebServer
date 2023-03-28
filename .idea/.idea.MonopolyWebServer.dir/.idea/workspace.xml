@@ -2,54 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/MonoWeb.data.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/MonoWeb.framework.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/MonoWeb.loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/MonoWeb.wasm.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/Monopoly.data.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/Monopoly.framework.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/Monopoly.loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/Build/Monopoly.wasm.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/StreamingAssets/UnityServicesProjectConfiguration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/fullscreen-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/progress-bar-empty-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/progress-bar-empty-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/progress-bar-full-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/progress-bar-full-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/unity-logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/unity-logo-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/TemplateData/webgl-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monopoly/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/.idea/.idea.form.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/form/.idea/.idea.form.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/_menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/_tree.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Nez4ezU2a0wMcR9LFzD7CsEen5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\minha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\minha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\minha\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\minha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\minha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\minha\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680039146847</updated>
       <workItem from="1680039151246" duration="315000" />
+      <workItem from="1680041607833" duration="1598000" />
     </task>
     <servers />
   </component>
