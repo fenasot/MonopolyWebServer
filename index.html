@@ -7,7 +7,9 @@
         * {
             font-family: 微軟正黑體;
         }
-
+        body::-webkit-scrollbar {
+            display: none;
+        }
         body {
             background-color: white;
         }
@@ -136,8 +138,8 @@
                        value="登入">
             </form>
 
-            <h5 onclick="show_hide()">註冊帳號</h5>
-            <h5 onclick="location.href='form/index2.html'">教師登入</h5>
+            <h5 onclick="show_hide()" style="float:left" >註冊帳號</h5>
+            <h5 onclick="location.href='form/index2.html'" style="float:right" >教師登入</h5>
 
         </div><!-- login end-->
     </div><!-- container1 end-->
@@ -169,7 +171,7 @@
 </div><!-- signup_page end-->
 
 <div id="copyright">
-    <h4>© Kaohsiung University of Science and Technology Topics</h4>
+    <h4>© 2023 Kaohsiung University of Science and Technology Topics</h4>
 </div>
 
 
