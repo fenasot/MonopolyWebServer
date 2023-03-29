@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/form/css/headimage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/home2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680039146847</updated>
       <workItem from="1680039151246" duration="315000" />
-      <workItem from="1680041607833" duration="5815000" />
+      <workItem from="1680041607833" duration="7161000" />
     </task>
     <servers />
   </component>
