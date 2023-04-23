@@ -1523,7 +1523,7 @@ input:focus {
 
 .caselist .time {
     float: left;
-    width: 80px;
+    width: 20%;
     background: #F5F5F5;
     padding: 10px;
 }
@@ -1561,10 +1561,10 @@ input:focus {
 }
 
 .caselist .p3 {
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
 .caselist figcaption h3 {
