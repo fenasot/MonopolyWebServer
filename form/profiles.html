@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="css/fullPage.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+  <link rel="stylesheet" type="text/css" href=" css/style.css"/>
+</head>
+<body>
+<div class="section section6">
+  <div class="title animated" >
+    <h3>個人資訊</h3>
+    <h4></h4>
+  </div>
+  <div class="w1400">
+    <div class="sec6-cont">
+      <div class="tab-hd animated delay-1s">
+        <ul class="clearfix">
+          <li>學生資訊</li>/
+          <li>骰子</li>/
+          <li>詳細資訊</li>/
+          <li></li>
+        </ul>
+      </div>
+      <div class="tab-bd animated delay-2s">
+        <div class="tab-pal">
+          <ul class="clearfix">
+            <li class="animated delay-1s">
+              <div>
+                <p class="p1">zzz</p>
+                <p class="p2"></p>
+                <p class="p3">2019-03-11</p>
+                <p class="p4">
+                  d
+                </p>
+                <a href="" class="more">了解更多</a>
+              </div>
+
+            </li>
+
+          </ul>
+        </div>
+        <div class="tab-pal">
+          <ul class="clearfix">
+            <li class="">
+              <div>
+                <p class="p1"e</p>
+                <p class="p2"></p>
+                <p class="p3">2019-03-11</p>
+                <p class="p4">
+                  e
+                </p>
+                <a href="" class="more">了解更多</a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        <div class="tab-pal">
+          <ul class="clearfix">
+            <li class="">
+              <div>
+                <p class="p1">law firm news</p>
+                <p class="p2">c</p>
+                <p class="p3">2019-03-11</p>
+                <p class="p4">
+                  b
+                </p>
+                <a href="" class="more">了解更多</a>
+              </div>
+
+          </ul>
+        </div>
+        <div class="tab-pal">
+          <ul class="clearfix">
+            <li class="">
+              <div>
+                <p class="p1">law firm news</p>
+                <p class="p2">a</p>
+                <p class="p3">2019-03-11</p>
+                <p class="p4">
+                  
+                </p>
+                <a href="" class="more">了解更多</a>
+              </div>
+            </li>
+            <li class="">
+              <div>
+                <p class="p1">law firm news</p>
+
+              </div>
+
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/jquery-ui-1.10.3.min.js"></script>
+<script src="js/fullPage.min.js"></script>
+<script src="js/plugin.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/more.js"></script>
+<script>
+$(function(){
+$('#lawyer').fullpage({
+navigation: true,
+anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7'],
+menu: '#menu'
+});
+
+
+jQuery(".banner").flexslider({
+animation: "fade",
+easing: "swing",
+slideshowSpeed: 6000,
+animationSpeed: 0,
+pauseOnAction: false,
+directionNav: false,
+controlNav: true,
+start: function(slider) {
+jQuery('.banner .bannerfix li').eq(slider.currentSlide).addClass("imgIn").siblings().removeClass("imgIn");
+},
+after: function(slider) {
+jQuery('.banner .bannerfix li').eq(slider.currentSlide).addClass("imgIn").siblings().removeClass("imgIn");
+}
+});
+$(".sec5-cont").slide({
+mainCell: ".bd ul",
+autoPlay: true,
+effect: "fade"
+});
+
+jQuery(".sec6-cont").slide({ titCell:".tab-hd li", mainCell:".tab-bd",delayTime:0 });
+jQuery(".scrollBox").slide({ titCell:".list li", mainCell:".piclist", effect:"left",vis:1,scroll:1,delayTime:800,trigger:"click",easing:"easeOutCirc"});
+
+
+});
+</script>
+</body>
+</html>
