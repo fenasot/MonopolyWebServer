@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/form/attractions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form/profiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/goods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/html_save/home2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/html_save/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/profiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/profiles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +60,15 @@
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/form/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/form/index2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index2.html" />
         <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.creatacc.html" />
@@ -81,7 +88,7 @@
       <workItem from="1682230646453" duration="74000" />
       <workItem from="1682230898367" duration="757000" />
       <workItem from="1682232702020" duration="1330000" />
-      <workItem from="1682234863576" duration="7096000" />
+      <workItem from="1682234863576" duration="8799000" />
     </task>
     <servers />
   </component>
