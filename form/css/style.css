@@ -325,6 +325,19 @@ input:focus {
     padding-top: 80px;
 }
 
+.title2{
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+.title2 h3 {
+    font-size: 36px;
+    color: #b8b8b8;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .title h3 {
     font-size: 36px;
     color: #b8b8b8;
@@ -897,7 +910,7 @@ input:focus {
     line-height: 26px;
     height: 52px;
     overflow: hidden;
-    padding: 20px 0 30px 0;
+    padding: 15px 0 15px 0;
     transition: all 0.6s;
 }
 
@@ -1554,6 +1567,18 @@ input:focus {
     padding: 10px;
 }
 
+.caselist .timepro {
+    float: left;
+    width: 95%;
+    background: #F5F5F5;
+    padding: 10px;
+}
+
+.timeproul{
+    table-layout: fixed;
+    width: 50%;
+}
+
 .caselist figcaption {
     float: left;
     width: 1000px;
@@ -1592,6 +1617,13 @@ input:focus {
     font-weight: bold;
     text-align: left;
 }
+
+.caselist .p3pro {
+    font-size: 24px;
+    color: #000;
+    text-align: justify;
+}
+
 
 .caselist figcaption h3 {
     font-size: 16px;
@@ -2037,7 +2069,7 @@ input:focus {
     }
 
     .title {
-        padding-bottom: 1px;
+        padding-bottom: 0;
     }
 }
 
