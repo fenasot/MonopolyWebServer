@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/fullPage.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css"/>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <?php include 'php/userpro.php'; ?>
 </head>
 <body>
 <div class="section section6">
@@ -35,7 +36,7 @@
               <b></b>
               <div class="timepro">
                 <ul class="timeproul">
-                  <li><p class="p3pro">使用者姓名：</p></li>
+                  <li><p class="p3pro">使用者姓名：<?php echo $id; ?></p></li>
                   <li><p class="p3pro">帳戶ID：</p></li>
                   <li><p class="p3pro">累積點數：</p></li>
                   <li><p class="p3pro">骰子的剩餘數量：</p></li>

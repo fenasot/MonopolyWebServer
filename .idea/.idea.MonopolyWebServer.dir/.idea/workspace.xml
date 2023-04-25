@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="" />
+    <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/php/backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/backend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/php/usercontorl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/php/usercontrol.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/usercontrol.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/profiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/profiles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,19 +62,19 @@
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/form/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/form/index2.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/index.html" useBuiltInWebServerPort="true">
+    <configuration name="profiles.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MonopolyWebServer/form/profiles.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.profiles.html" />
         <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.attractions.html" />
         <item itemvalue="JavaScript Debug.creatacc.html" />
-        <item itemvalue="JavaScript Debug.index2.html" />
       </list>
     </recent_temporary>
   </component>

@@ -1,3 +1,7 @@
+<?php
+session_start(); // 啟動會話
+?>
+
 <!DOCTYPE html>
 <html lang="utf-8">
 <head>
@@ -30,11 +34,16 @@
             }
         }
     </script>
+
 </head>
 
 <body>
 <div class="system_name">
     <h2>MonopolyWeb</h2>
+	<?php
+		$message = "Hello World!";
+		echo "<h1>$message</h1>";
+	?>
 </div>
 
 <div class="login_page">
@@ -44,12 +53,14 @@
 
             <h3>學生登入</h3>
 
-            <form action="form/php/usercontrol.php">
+            <form method="post" action="form/php/usercontrol.php">
                 <input id="username" name="username" placeholder="帳號" required type="text">
                 <div class="tab"></div>
-                <input id="password" name="password" placeholder="密碼" required type="text">
+                <input id="password" name="password" placeholder="密碼" required type="password">
                 <div class="tab"></div>
+                
                 <input class="submit"  type="submit" value="登入">
+
             </form>
 
             <h5 onclick="show_hide()" style="float:left" >註冊帳號</h5>
@@ -65,7 +76,7 @@
 
         <h3>註冊 Sign Up</h3>
 
-        <form action="form/php/usercontrol.php">
+        <form method="post" action="form/php/usercontrol.php">
             <input id="fullname" name="fullname" placeholder="使用者全名" required type="text">
             <div class="tab"></div>
             <input id="username2" name="username" placeholder="帳號" required type="text">
