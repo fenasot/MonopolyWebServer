@@ -15,11 +15,4 @@
         die("Connection failed: " . mysqli_connect_error());
     }
 
-    if (isset($_POST) && isset($_POST["username"]) && isset($_POST["password"]))
-    {
-        $un = $_POST['username'];
-        $pad = $_POST['password'];
-    } else {
-        die( 'Error: Username not found');
-    }
 ?>
