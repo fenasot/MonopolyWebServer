@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/form/php/usercontrol.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/attractions.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/attractions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/creatacc_try.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/html_save/creatacc_try.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/css/headimage.css" beforeDir="false" afterPath="$PROJECT_DIR$/form/css/headimage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/php/usercontorl.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/css/indexstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/profiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/profiles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -65,11 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.attractions.html" />
         <item itemvalue="JavaScript Debug.creatacc.html" />
         <item itemvalue="JavaScript Debug.index2.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
       </list>
     </recent_temporary>
   </component>

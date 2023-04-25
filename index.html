@@ -4,94 +4,7 @@
     <meta charset="utf-8">
     <title>登入平台</title>
     <script src="form/js/verify.js"></script>
-
-    <style>
-        * {
-            font-family: 微軟正黑體;
-        }
-        body::-webkit-scrollbar {
-            display: none;
-        }
-        body {
-            background-color: white;
-        }
-
-        #username, #password, h3, #fullname, #comfirm_password, #username2, #password2 {
-            width: 200px;
-            height: 20px;
-            margin: 10px;
-            color: #df1523;
-        }
-
-        h5 {
-            margin: 20px;
-            color: #a3a2a3;
-        }
-
-        h5:hover {
-            color: black;
-        }
-
-        #container1, #container2 {
-        / / margin: 50 px;
-            padding: 10px;
-            width: 230px;
-            height: 300px;
-            background-color: white;
-            border-radius: 5px;
-            border-top: 10px solid #df1523;
-            box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
-
-            /*定位對齊*/
-            position: relative;
-            margin: auto;
-            top: 100px;
-        / / text-align: center;
-        }
-
-        .system_name {
-            /*定位對齊*/
-            position: relative;
-            margin: auto;
-            top: 100px;
-            text-align: center;
-        }
-
-        .submit {
-            color: white;
-            background: #df5334;
-            width: 200px;
-            height: 30px;
-            margin: 10px;
-            padding: 5px;
-            border-radius: 5px;
-            border: 0px;
-        }
-
-        .submit:hover {
-            background: #db6937;
-        }
-
-        #container2 {
-            visibility: hidden; /*剛開始消失*/
-            height: 350px;
-        }
-
-
-        #copyright {
-            text-align: center;
-            color: #a3a2a3;
-            margin: -200px 0px 0px 0px;
-            font-size: 14px;
-        }
-
-        input {
-            padding: 5px;
-            border: none;
-            border: solid 1px #ccc;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="form/css/indexstyle.css"> 
     <script>
         function show_hide() {
             var login = document.getElementById("container1");
@@ -131,7 +44,7 @@
 
             <h3>學生登入</h3>
 
-            <form action="usercontorl.php">
+            <form action="form/php/usercontrol.php">
                 <input id="username" name="username" placeholder="帳號" required type="text">
                 <div class="tab"></div>
                 <input id="password" name="password" placeholder="密碼" required type="text">
@@ -153,7 +66,7 @@
 
         <h3>註冊 Sign Up</h3>
 
-        <form action="usercontrol.php">
+        <form action="form/php/usercontrol.php">
             <input id="fullname" name="fullname" placeholder="使用者全名" required type="text">
             <div class="tab"></div>
             <input id="username2" name="username" placeholder="帳號" required type="text">
@@ -176,50 +89,6 @@
 </div>
 
 
-<?php
-    session_start();
-    require_once 'db.php';
-
-    $un = $_POST['username'];
-    $pad = $_POST['password'];
-
-    //如果使用者名稱和密碼都不為空
-    if($un && $pad){
-        //檢測資料庫是否有對應的username和password的sql
-        $sql = "SELECT * FROM user WHERE username ='$un' and password = '$pad'";
-        
-        //執行sql
-        $result = mysqli_query($link, $sql);
-        
-        //返回一個數值
-        $rows=mysqli_num_rows($result);  
-
-        //0 false 1 true
-        if($rows){
-
-            //如果密碼以及帳號一樣，顯示登入成功
-            $_SESSION['is_login'] = TRUE;
-
-            //使用PHP來轉址，前往後台
-            header('Location: backend.php');
-
-        }else{
-
-            //要不然就是登入失敗
-            $_SESSION['is_login'] = FALSE;
-
-            //在session 存一個 msg 變數
-            $_SESSION['msg'] = '登入失敗，請確認帳號密碼!!';
-
-            header('Location: member.php');
-        }
-    }else{
-        
-        $_SESSION['msg'] = '請輸入帳號或密碼!!';
-        //使用 PHP header 來轉址 返回登入頁
-        header('Location: member.php');
-    }
-?>
 </body>
 
 
