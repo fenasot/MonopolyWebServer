@@ -9,6 +9,20 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="css/headimage.css" rel="stylesheet" />
+    
+    <script>
+        FR.location(function(status, message){ //獲取地理位置
+            if(status=="success") {
+               //定位成功，message返回經緯度值
+                FR.Msg.alert("當前位置是" + message);
+                contentPane.setCellValue(2, 3, message);
+            } else {
+               //定位失敗，message返回對應的錯誤信息
+                FR.Msg.alert(message); //定位失敗
+            }
+        });
+        
+    </script>
 </head>
 
 <body>
@@ -19,7 +33,7 @@
         <li data-menuanchor="page2"><a href="#page2">個人資訊</a></li>
         <li data-menuanchor="page3"><a href="#page3">擲骰子</a></li>
         <li data-menuanchor="page4"><a href="#page4">景點介紹</a></li>
-        <li data-menuanchor="page5"><a href="#page5">商品兌換</a></li>
+        <li data-menuanchor="page5"><a href="goods.html" target="_parent">商品兌換</a></li>
         <li data-menuanchor="page6" onclick="location.href='https://www.nkust.edu.tw/p/422-1000-1003.php'" ><a href="#page6">活動消息</a></li>
         <li class="logout" onclick="location.href='../index.html'" data-menuanchor="page4"><a href="#page4">登出</a></li>
     </ul>
@@ -58,10 +72,7 @@
     <div class="section section4">
         <iframe frameborder="1" height="100%" scrolling="no" src="attractions.html" width="100%"></iframe>
     </div>
-
-    <div class="section section5">
-        <iframe frameborder="1" height="100%" scrolling="no" src="goods.html" width="100%"></iframe>
-    </div>
+    
 
 
 

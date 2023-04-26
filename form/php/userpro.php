@@ -8,6 +8,8 @@
     $sql = "SELECT * FROM useracc WHERE acc ='$un'";
     $result = mysqli_query($conn, $sql);
     $data = $result->fetch_assoc();
+
+
     ?>
 
 <!DOCTYPE html>
@@ -51,7 +53,13 @@
                   <li><p class="p3pro">帳戶ID：<?php echo $data["acc"]; ?></p></li>
                   <li><p class="p3pro">累積點數：<?php echo $data["points"]; ?></p></li>
                   <li><p class="p3pro">骰子的剩餘數量：<?php echo $data["dice"]; ?></p></li>
-                  <li><p class="p3pro">是否已領取本周的骰子：<?php echo $data["weekaward"]; ?></p></li>
+                  <li><p class="p3pro">是否已領取本周的骰子：<?php 
+                      if ($data["weekaward"] == 0){
+                        echo "否";
+                      } else {
+                        echo "是";
+                      }
+                   ?></p></li>
                 </ul>
               </div>
               <figcaption>
@@ -61,6 +69,9 @@
           </li>
         </ul>
       </div>
+      <form method="post" action="weekawardtab.php">
+        <input class="p3pro" id="weekaward" type="submit" value="領取本周骰子">
+      </form>
     </div>
   </div>
 </div>
