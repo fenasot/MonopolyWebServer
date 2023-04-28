@@ -9,9 +9,9 @@
     $data = $result->fetch_assoc();
     $inc = 1;
 
-    if ($data['weekaward'] === 0){
+    if ($data['weekaward'] = 0){
     
-    $sql = "UPDATE useracc SET weekaward = '1'  WHERE acc = '$un'";
+    "UPDATE useracc SET weekaward = 1  WHERE acc = {$data['acc']}";
     } else {
         echo "Error";
         header('Location: userpro.php');

@@ -22,6 +22,10 @@
   <link rel="stylesheet" type="text/css" href="../css/fullPage.css">
   <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
   <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/indexstyle.css"> 
+  <script src="form/js/verify.js">
+  </script>
+
 </head>
 <body>
 <div class="section section6">
@@ -70,11 +74,14 @@
         </ul>
       </div>
       <form method="post" action="weekawardtab.php">
-        <input class="p3pro" id="weekaward" type="submit" value="領取本周骰子">
+        <input class="submit" name="weekaward" type="submit" value="領取本周骰子">
       </form>
+      
     </div>
   </div>
 </div>
+
+
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="js/jquery-ui-1.10.3.min.js"></script>
