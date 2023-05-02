@@ -9,12 +9,14 @@
     $data = $result->fetch_assoc();
     $weekawardcheck = (int)0;
     $error1 = false;
-    var_dump($_GET);
+
     if ($data['weekaward'] == $weekawardcheck){
     
         $updateSql = "UPDATE useracc SET weekaward = 1 WHERE acc = '{$data['acc']}'";
+        $updateSql2 = "UPDATE useracc SET dice = dice + 1 WHERE acc = '{$data['acc']}'";
         $updateResult = mysqli_query($conn, $updateSql);
-        if ($updateResult) {
+        $updateResult2 = mysqli_query($conn, $updateSql2);
+        if ($updateResult and $updateResult2) {
             // 更新成功
             header('Location: userpro.php');
         } else {
@@ -29,11 +31,15 @@
  //     echo "<script>alert('Error');  location.href= 'userpro.php' </script>";
  //     header('Location: userpro.php');
     } else {
-        header('Location: userpro.php');
-        $error1 = true;
-        exit();
+        $_SESSION['error1'] = true;
     }
 
 
+        
+    if ($error1 === TRUE) {
+      header('Location: userpro.php');
+
+    }
+    
     exit();
     ?>

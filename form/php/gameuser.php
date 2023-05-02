@@ -10,12 +10,12 @@ $sql = "SELECT * FROM useracc WHERE acc ='$un'";
 $result = mysqli_query($conn, $sql);
 $data = $result->fetch_assoc();
 
-$data = array(
+$gamedata = array(
     'userlocation' => $data["userlocation"],
     'dice' => $data["dice"],
 );
 
-$jsonData = json_encode($data);
+$jsonData = json_encode($gamadata);
 
 header('Content-Type: application/json');
 

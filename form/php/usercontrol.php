@@ -3,7 +3,7 @@
     header("Content-Type:text/html; charset=utf-8");
     require_once 'config.php';
 
-
+    $_SESSION['acc'] = "";
     if (isset($_POST) && isset($_POST["username"]) && isset($_POST["password"]))
     {
         $un = $_POST['username'];

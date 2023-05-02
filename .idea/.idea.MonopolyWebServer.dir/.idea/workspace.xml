@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/php/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/php/usercontrol.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/usercontrol.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form/php/userpro.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/userpro.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form/php/weekawardtab.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/weekawardtab.php" afterDir="false" />
     </list>
@@ -96,7 +99,7 @@
       <workItem from="1682349143618" duration="3649000" />
       <workItem from="1681295059532" duration="661000" />
       <workItem from="1683025521770" duration="2290000" />
-      <workItem from="1683031860768" duration="3766000" />
+      <workItem from="1683031860768" duration="6337000" />
     </task>
     <servers />
   </component>
