@@ -31,7 +31,7 @@
             //帳密一樣，登入成功
             $_SESSION['is_login'] = TRUE;
             $_SESSION['acc'] = $un;
-            //使用PHP來轉址，前往後台
+            //使用PHP來轉址，前往首頁
             header('Location: ../home.html');
             exit;
 

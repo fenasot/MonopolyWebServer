@@ -3,7 +3,6 @@
     header("Content-Type:text/html; charset=utf-8");
     require_once 'config.php';
 
-
     $un = $_SESSION['acc'];
     $sql = "SELECT * FROM useracc WHERE acc ='$un'";
     $result = mysqli_query($conn, $sql);
@@ -23,7 +22,7 @@
   <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
   <link rel="stylesheet" type="text/css" href="../css/style.css"/>
   <link rel="stylesheet" type="text/css" href="../css/indexstyle.css"> 
-  <script src="form/js/verify.js">
+  <script src="../js/verify.js">
   </script>
 
 </head>
@@ -83,12 +82,12 @@
 
 
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script src="js/jquery-ui-1.10.3.min.js"></script>
-<script src="js/fullPage.min.js"></script>
-<script src="js/plugin.js"></script>
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
-<script src="js/more.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script src="../js/jquery-ui-1.10.3.min.js"></script>
+<script src="../js/fullPage.min.js"></script>
+<script src="../js/plugin.js"></script>
+<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="../js/more.js"></script>
 
 
 

@@ -9,7 +9,7 @@
         $un = $_POST['username'];
         $pad = $_POST['password'];
     } else {
-        die( 'Error: Username not found');
+        die( 'Error: Username add fail');
     }
 
     $sql = "INSERT INTO useracc (id, acc, pws) VALUES ('$id', '$un', '$pad')";
