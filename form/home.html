@@ -9,20 +9,9 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="css/headimage.css" rel="stylesheet" />
-    
-    <script>
-        FR.location(function(status, message){ //獲取地理位置
-            if(status=="success") {
-               //定位成功，message返回經緯度值
-                FR.Msg.alert("當前位置是" + message);
-                contentPane.setCellValue(2, 3, message);
-            } else {
-               //定位失敗，message返回對應的錯誤信息
-                FR.Msg.alert(message); //定位失敗
-            }
-        });
-        
-    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+
 </head>
 
 <body>
@@ -36,6 +25,7 @@
         <li data-menuanchor="page5"><a href="goods.html" target="_parent">特色商品</a></li>
         <li data-menuanchor="page6"><a href="goods.html" target="_parent">商品兌換</a></li>
         <li data-menuanchor="page7" onclick="location.href='https://www.nkust.edu.tw/p/422-1000-1003.php'" ><a href="#page6">活動消息</a></li>
+        <li data-menuanchor="page8"><a href="#page5" >當前位置</a></li>
         <li class="logout" onclick="location.href='../index.html'" data-menuanchor="page4"><a href="#page4">登出</a></li>
     </ul>
     <p class="p1 fr">
@@ -73,6 +63,10 @@
     <div class="section section4">
         <iframe frameborder="1" height="100%" scrolling="no" src="attractions.html" width="100%"></iframe>
     </div>
+
+    <div class="section section5">
+        <div id="map" style="height: 400px;"></div>
+    </div>
     
 
 
@@ -89,6 +83,7 @@
     <script src="js/plugin.js"></script>
     <script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
     <script src="js/more.js"></script>
+    <script src="js/map.js"></script>
     <script>
 
 
