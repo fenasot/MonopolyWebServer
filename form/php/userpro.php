@@ -7,7 +7,8 @@
     $sql = "SELECT * FROM useracc WHERE acc ='$un'";
     $result = mysqli_query($conn, $sql);
     $data = $result->fetch_assoc();
-
+    $dice_php_url = 'weekawardtab?param1=error1';
+    $dice_error = file_get_contents($dice_php_url);
 
     ?>
 
@@ -23,6 +24,7 @@
   <link rel="stylesheet" type="text/css" href="../css/style.css"/>
   <link rel="stylesheet" type="text/css" href="../css/indexstyle.css"> 
   <script src="../js/verify.js">
+  <a href="b.php?value=<?php echo $error1; ?>">
   </script>
 
 </head>
@@ -74,6 +76,7 @@
       </div>
       <form method="post" action="weekawardtab.php">
         <input class="submit" name="weekaward" type="submit" value="領取本周骰子">
+
       </form>
       
     </div>
@@ -132,6 +135,11 @@ jQuery(".scrollBox").slide({ titCell:".list li", mainCell:".piclist", effect:"le
    
 </script>
 
-
+<?php 
+        
+        if ($dice_error === TRUE) {
+          echo "<script>alert('Already receive.) </script>";
+        }
+    ?>
 </body>
 </html>

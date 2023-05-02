@@ -8,19 +8,20 @@
     $result = mysqli_query($conn, $sql);
     $data = $result->fetch_assoc();
     $weekawardcheck = (int)0;
-    $errors = "";
-   
-    if ($data['weekaward'] === $weekawardcheck){
+    $error1 = false;
+    var_dump($_GET);
+    if ($data['weekaward'] == $weekawardcheck){
     
         $updateSql = "UPDATE useracc SET weekaward = 1 WHERE acc = '{$data['acc']}'";
         $updateResult = mysqli_query($conn, $updateSql);
         if ($updateResult) {
             // 更新成功
-            $error1 = true;
+            header('Location: userpro.php');
         } else {
             // 更新失敗
             echo "Error: " . $updateSql . "<br>" . mysqli_error($conn);
-            $error2 = true;
+            header('Location: userpro.php');
+            exit();
         }
 
  //   "UPDATE useracc SET weekaward = 1  WHERE acc = {$data['acc']}";
@@ -28,21 +29,11 @@
  //     echo "<script>alert('Error');  location.href= 'userpro.php' </script>";
  //     header('Location: userpro.php');
     } else {
-        $error3 = true;
+        header('Location: userpro.php');
+        $error1 = true;
+        exit();
     }
 
 
-    if($error1 == true){
-        $errors .= "更新成功";
-    } else if ($error2 == true){
-        $errors .= "更新失敗";
-    } else if ($error3 == true){
-        $errors .= "判斷失敗";
-    } 
-    if(!$errors){
-        echo nl2br($errors);
-    }
-    echo 'fkyou';
-    header('Location: userpro.php');
     exit();
     ?>
