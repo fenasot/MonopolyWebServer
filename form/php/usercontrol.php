@@ -1,21 +1,8 @@
 <?php
     session_start();
     header("Content-Type:text/html; charset=utf-8");
+    require_once 'config.php';
 
-
-    //設置SQL連結
-    $servername = "localhost";
-    $username = "user";
-    $password = "123456";
-    $dbname = "monopolyweb";
-
-    $conn = mysqli_connect($servername, $username ,$password ,$dbname);
-
-
-    //檢查是否成功
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
 
     if (isset($_POST) && isset($_POST["username"]) && isset($_POST["password"]))
     {

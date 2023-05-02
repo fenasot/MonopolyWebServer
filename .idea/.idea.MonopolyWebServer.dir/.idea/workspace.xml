@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/form/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/php/userpro.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/userpro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/php/weekawardtab.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/weekawardtab.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/php/usercontrol.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/usercontrol.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -94,6 +96,8 @@
       <workItem from="1682232702020" duration="1330000" />
       <workItem from="1682234863576" duration="17626000" />
       <workItem from="1682349143618" duration="3649000" />
+      <workItem from="1681295059532" duration="661000" />
+      <workItem from="1683025521770" duration="659000" />
     </task>
     <servers />
   </component>
@@ -102,6 +106,7 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
