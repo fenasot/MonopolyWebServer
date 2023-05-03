@@ -170,10 +170,9 @@ input:focus {
 
 #menu {
     position: absolute;
-    left: 70px;
+    left: 0;
     height: 80px;
     width: 100%;
-    right: 0;
     text-align: center;
 }
 

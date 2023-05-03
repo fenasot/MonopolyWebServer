@@ -15,10 +15,10 @@ $gamedata = array(
     'dice' => $data["dice"],
 );
 
-$jsonData = json_encode($gamadata);
+$jsonData = json_encode($gamedata);
 
 header('Content-Type: application/json');
 
 echo $jsonData;
-
+exit();
 ?>

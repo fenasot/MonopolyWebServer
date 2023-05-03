@@ -16,6 +16,7 @@
         $updateSql2 = "UPDATE useracc SET dice = dice + 1 WHERE acc = '{$data['acc']}'";
         $updateResult = mysqli_query($conn, $updateSql);
         $updateResult2 = mysqli_query($conn, $updateSql2);
+
         if ($updateResult and $updateResult2) {
             // 更新成功
             header('Location: userpro.php');
@@ -31,12 +32,12 @@
  //     echo "<script>alert('Error');  location.href= 'userpro.php' </script>";
  //     header('Location: userpro.php');
     } else {
-        $_SESSION['error1'] = true;
+        $error1 = true;
     }
 
 
         
-    if ($error1 === TRUE) {
+    if ($error1 === true) {
       header('Location: userpro.php');
 
     }

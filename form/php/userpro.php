@@ -70,9 +70,11 @@
           </li>
         </ul>
       </div>
-      <form method="post" action="weekawardtab.php">
-        <input class="submit" name="weekaward" type="submit" value="領取本周骰子">
-
+      <form method="post" style="display: inline" action="weekawardtab.php">
+        <input class="submit"  name="weekaward" type="submit" value="領取本周骰子">
+      </form>
+      <form method="post" style="display: inline" action="givepoint.php">
+        <input class="submit"  name="givepoint" type="submit" value="領取點數">
       </form>
       
     </div>
