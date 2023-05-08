@@ -1533,6 +1533,8 @@ input:focus {
     height: 50px;
     text-align: center;
     padding-top: 45px;
+    position: relative;
+    top: 45px;
 }
 
 .pager a {
@@ -1563,11 +1565,13 @@ input:focus {
 
 .caselist {
     margin-top: 50px;
+    height: 1800px;
 }
 
 .caselist .time {
     float: left;
     background: #F5F5F5;
+    width: 20%;
     padding: 10px;
 }
 
@@ -1599,7 +1603,7 @@ input:focus {
     transition: all 0.6s;
     position: relative;
     margin-bottom: 20px;
-    border: 5px solid transparent
+    border: 5px solid transparent;
 }
 
 .caselist .p1 {
@@ -1610,8 +1614,8 @@ input:focus {
 
 
 .caselist .p1 img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
  
