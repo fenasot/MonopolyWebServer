@@ -1571,7 +1571,7 @@ input:focus {
 .caselist .time {
     float: left;
     background: #F5F5F5;
-    width: 20%;
+    width: 250px;
     padding: 10px;
 }
 
