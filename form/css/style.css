@@ -191,10 +191,6 @@ input:focus {
     color: #DA251D;
 }
 
-.caselist .active {
-    display: block !important;
-}
-
 .fixtop .p1 {
     height: 80px;
     line-height: 80px;
@@ -1566,6 +1562,10 @@ input:focus {
     display: block !important;
 }
 
+.caselist .active {
+    display: block !important;
+}
+
 .caselist {
     margin-top: 50px;
     height: 1800px;
@@ -1684,8 +1684,16 @@ input:focus {
     border-color: #E0E0E0;
 }
 
-.caselist ul li {
+.w1200 .caselist ul li {
     width: 33.33%; 
+    float: left; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+}
+
+.caselist .timeproful {
+    width: 100%; 
     float: left; 
     box-sizing: border-box; 
     padding: 10px; 
