@@ -191,6 +191,10 @@ input:focus {
     color: #DA251D;
 }
 
+.caselist .active {
+    display: block !important;
+}
+
 .fixtop .p1 {
     height: 80px;
     line-height: 80px;
@@ -1522,7 +1526,9 @@ input:focus {
     color: #DA251D
 }
 
-
+.pagersetting {
+    display: none !important;
+}
 .pager {
     height: 50px;
     text-align: center;
