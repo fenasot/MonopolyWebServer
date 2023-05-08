@@ -10,7 +10,7 @@ paginationLinks.forEach(link => {
 
         // get ID
         const targetPageId = link.getAttribute('href').substring(1);
-        const targetPageLink = link.getAttribute('id').substring(1);
+        const targetPageLink = link.getAttribute('id').substring(0);
 
         // hide all
         pages.forEach(page => {
