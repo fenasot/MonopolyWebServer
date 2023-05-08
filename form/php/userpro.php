@@ -33,7 +33,7 @@
 
 
   <div class="neipage">
-    <div class="w1200 ">
+    <div class="w1200">
       <div class="breadcrumb-box">
         <div class="breadcrumb clearfix">
           <div class="fl">
@@ -43,18 +43,18 @@
           </div>
         </div>
       </div>
-      <div class="caselist">
+      <div class="caselist active">
         <ul>
-          <li>
+          <li class="w1300">
             <a href="#">
               <b></b>
               <div class="timepro">
                 <ul class="timeproul">
-                  <li><p class="p3pro">使用者姓名：<?php echo $data["id"]; ?></p></li>
-                  <li><p class="p3pro">帳戶ID：<?php echo $data["acc"]; ?></p></li>
-                  <li><p class="p3pro">累積點數：<?php echo $data["points"]; ?></p></li>
-                  <li><p class="p3pro">骰子的剩餘數量：<?php echo $data["dice"]; ?></p></li>
-                  <li><p class="p3pro">是否已領取本周的骰子：<?php 
+                  <li class="p3proli"><p class="p3pro">使用者姓名：<?php echo $data["id"]; ?></p></li>
+                  <li class="p3proli"><p class="p3pro">帳戶ID：<?php echo $data["acc"]; ?></p></li>
+                  <li class="p3proli"><p class="p3pro">累積點數：<?php echo $data["points"]; ?></p></li>
+                  <li class="p3proli"><p class="p3pro">骰子的剩餘數量：<?php echo $data["dice"]; ?></p></li>
+                  <li class="p3proli"><p class="p3pro">是否已領取本周的骰子：<?php 
                       if ($data["weekaward"] == 0){
                         echo "否";
                       } else {
@@ -63,19 +63,21 @@
                    ?></p></li>
                 </ul>
               </div>
-              <figcaption>
-                <h3> </h3>
-              </figcaption>
+              <form method="post" style="display: inline" action="weekawardtab.php">
+                 <input class="submit"  name="weekaward" type="submit" value="領取本周骰子">
+              </form>
+              <figcaption>    </figcaption>
+              <form method="post" style="display: inline" action="givepoint.php">
+                  <input class="submit"  name="givepoint" type="submit" value="領取點數">
+              </form>
+
+
+             
             </a>
           </li>
         </ul>
       </div>
-      <form method="post" style="display: inline" action="weekawardtab.php">
-        <input class="submit"  name="weekaward" type="submit" value="領取本周骰子">
-      </form>
-      <form method="post" style="display: inline" action="givepoint.php">
-        <input class="submit"  name="givepoint" type="submit" value="領取點數">
-      </form>
+
       
     </div>
   </div>

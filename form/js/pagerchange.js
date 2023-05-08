@@ -6,16 +6,25 @@ const paginationLinks = document.querySelectorAll('.pager a');
 paginationLinks.forEach(link => {
     link.addEventListener('click', e => {
         e.preventDefault();
+ 
 
         // get ID
         const targetPageId = link.getAttribute('href').substring(1);
+        const targetPageLink = link.getAttribute('id').substring(1);
 
         // hide all
         pages.forEach(page => {
             page.classList.remove('active');
         });
+        paginationLinks.forEach(links => {
+            links.classList.remove('current');
+        });
+
 
         // show ID
         document.getElementById(targetPageId).classList.add('active');
+        document.getElementById(targetPageLink).classList.add('current');
+        
+
     });
 });
