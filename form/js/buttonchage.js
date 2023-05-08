@@ -1,21 +1,21 @@
 //連結
-const pages = document.querySelectorAll('.caselist');
-const paginationLinks = document.querySelectorAll('.disablever');
+const fullpages = document.querySelectorAll('.caselist');
+const fullpaginationLinks = document.querySelectorAll('.disablever');
 
 // 點擊 and 跳轉
-paginationLinks.forEach(link => {
+fullpaginationLinks.forEach(link => {
     link.addEventListener('click', e => {
         e.preventDefault();
 
         // get ID
-        const targetPageId = link.getAttribute('href').substring(1);
+        const targetFullPageId = link.getAttribute('href').substring(1);
 
         // hide all
-        pages.forEach(page => {
-            page.classList.remove('active');
+        fullpages.forEach(fullpage => {
+            fullpage.classList.remove('active');
         });
 
         // show ID
-        document.getElementById(targetPageId).classList.add('active');
+        document.getElementById(targetFullPageId).classList.add('active');
     });
 });
