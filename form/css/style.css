@@ -1562,10 +1562,14 @@ input:focus {
     background: #da251d;
 }
 
+.caselist.active {
+    display: block !important;
+}
 
 .caselist {
     margin-top: 50px;
     height: 1800px;
+    display: none !important;
 }
 
 .caselist .time {
@@ -1604,6 +1608,14 @@ input:focus {
     position: relative;
     margin-bottom: 20px;
     border: 5px solid transparent;
+}
+
+.breadcrumb ul li .disablever{
+    background: #da251d;
+    color: #fff;
+}
+
+
 }
 
 .caselist .p1 {
