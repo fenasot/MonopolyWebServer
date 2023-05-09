@@ -1547,17 +1547,8 @@ input:focus {
     margin: 0 5px;
 }
 .pager button {
-    display: inline-block;
-    background: #fff;
-    width: 50px;
-    height: 40px;
-    line-height: 40px;
-    vertical-align: middle;
-    font-size: 14px;
-    border: 1px #e0e0e0 solid;
-    color: #666;
-    transition: all 0.36s;
-    margin: 0 5px;
+    border: none;
+
 }
 
 .pager a:hover {
