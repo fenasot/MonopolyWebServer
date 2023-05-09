@@ -1,11 +1,11 @@
 //連結
 const pages = document.querySelectorAll('.pagersetting');
-const paginationLinks = document.querySelectorAll('.pager a');
+const paginationLinks = document.querySelectorAll('.pager .pagersettingner');
 
 // 點擊 and 跳轉
 paginationLinks.forEach(link => {
     link.addEventListener('click', e => {
-        e.preventDefault();
+       e.preventDefault();
  
 
         // get ID

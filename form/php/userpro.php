@@ -70,6 +70,9 @@
               <form method="post" style="display: inline" action="givepoint.php">
                   <input class="submit"  name="givepoint" type="submit" value="領取點數">
               </form>
+              <form method="post" style="display: inline" action="resum.php">
+                  <input class="submit"  name="PlayerLocation" type="submit" placeholder="test" value="5">
+              </form>
 
 
              

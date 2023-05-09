@@ -1,9 +1,20 @@
+
+const paginationLinksup = document.querySelectorAll('.pager .nextpppppage ');
+
+paginationLinksup.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    
+    goToNextPage();
+    
+  });
+});
 function goToNextPage() {
     // 取得當前頁碼
-    var currentPage = getCurrentPage();
+    let currentPage = getCurrentPage();
     
     // 計算下一頁頁碼
-    var nextPage = currentPage + 1;
+    let nextPage = currentPage + 1;
     
     // 執行頁面導航
     navigateToPage(nextPage);
@@ -11,27 +22,26 @@ function goToNextPage() {
   
   function goToPreviousPage() {
 
-    var currentPage = getCurrentPage();
+    let currentPage = getCurrentPage();
 
-    var previousPage = currentPage - 1;
+    let previousPage = currentPage - 1;
     
     navigateToPage(previousPage);
   }
   
   function getCurrentPage() {
-    var currentPageElement = document.querySelector('.current');
-    var currentPageId = currentPageElement.id;
-    var prefix = currentPageId.substring(0, 7); // 獲取 "current"
-    var currentPage = parseInt(currentPageId.substring(7));
-    
-    return currentPage;
+    let currentPageElement = document.querySelector(`.current`);
+    let currentPageId = currentPageElement.id;
+    // var prefix = currentPageId.substring(0, 4); // 獲取 "cur?"
+    return parseInt(currentPageId.substring(4));
   }
   
   function navigateToPage(page) {
 
-    // 假設頁面連結的 href 是 "#page-{page}"，並且每個頁面都有一個 id 為 "page-{page}"
-    var pageLink = document.querySelector(`a[href="#pager${page}"]`);
+    // 假設id 是 "#cur{page}"
+    let pageLink = document.querySelector(`a#cur${page}`);
     if (pageLink) {
       pageLink.click(); // 執行頁面導航
     }
   }
+
