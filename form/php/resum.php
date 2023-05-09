@@ -3,6 +3,8 @@
 session_start();
 header("Content-Type:text/html; charset=utf-8");
 require_once 'config.php';
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 $un = $_SESSION['acc'];
 $sql = "SELECT * FROM useracc WHERE acc ='$un'";
@@ -11,13 +13,15 @@ $data = $result->fetch_assoc();
 $error1 = false;
 
 
-if (isset($_POST) && isset($_POST["PlayerLocation"]))
+if (isset($_POST) && isset($_POST["Location"]))
 {
     $check = true;
-    $ppo = $_POST["PlayerLocation"];
+    $ppo = $_POST["Location"];
+ 
 } else {
     die("shaaaaaaaaar");
 }
+
 
 
 if ($check)
