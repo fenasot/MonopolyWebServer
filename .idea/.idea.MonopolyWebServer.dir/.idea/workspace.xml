@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2dc4bbc-04b8-40b5-9bc6-778e976b62a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MonopolyWebServer.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form/php/userpro.php" beforeDir="false" afterPath="$PROJECT_DIR$/form/php/userpro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +106,7 @@
       <workItem from="1683707339231" duration="1295000" />
       <workItem from="1683711672640" duration="799000" />
       <workItem from="1683727148439" duration="501000" />
+      <workItem from="1683732242940" duration="181000" />
     </task>
     <servers />
   </component>
