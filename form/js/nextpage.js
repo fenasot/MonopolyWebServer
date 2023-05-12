@@ -1,5 +1,5 @@
 
-const paginationLinksup = document.querySelectorAll('.pager .nextpppppage ');
+const paginationLinksup = document.querySelectorAll('.pager .nextpppppage a ');
 
 paginationLinksup.forEach(link => {
   link.addEventListener('click', e => {
@@ -10,13 +10,13 @@ paginationLinksup.forEach(link => {
   });
 });
 function goToNextPage() {
-    // 取得當前頁碼
+    // 取得當前
     let currentPage = getCurrentPage();
     
-    // 計算下一頁頁碼
+    // 計算下一頁
     let nextPage = currentPage + 1;
     
-    // 執行頁面導航
+    // 頁面導航
     navigateToPage(nextPage);
   }
   

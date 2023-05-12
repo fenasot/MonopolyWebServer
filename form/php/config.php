@@ -1,6 +1,5 @@
 <?php
 
-
     //設置SQL連結
     $servername = "localhost";
     $username = "user";

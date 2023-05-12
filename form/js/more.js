@@ -5,7 +5,7 @@ $(function () {
         $this.addClass('on').siblings().removeClass('on');
     })
 
-    //导航
+    //導航
     $(window).scroll(function () {
         var ST = $(window).scrollTop();
         if (ST > 0) {

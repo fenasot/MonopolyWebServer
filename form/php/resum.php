@@ -5,11 +5,7 @@ header("Content-Type:text/html; charset=utf-8");
 require_once 'config.php';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-
-$un = $_SESSION['acc'];
-$sql = "SELECT * FROM useracc WHERE acc ='$un'";
-$result = mysqli_query($conn, $sql);
-$data = $result->fetch_assoc();
+require_once 'acccheck.php';
 $error1 = false;
 
 

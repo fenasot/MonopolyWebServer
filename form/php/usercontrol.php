@@ -32,7 +32,7 @@
             $_SESSION['is_login'] = TRUE;
             $_SESSION['acc'] = $un;
             //使用PHP來轉址，前往首頁
-            header('Location: ../home.html');
+            header('Location: ../home.php');
             exit;
 
         }else{
@@ -43,12 +43,12 @@
             //在session 存一個 msg 變數
             $_SESSION['msg'] = '登入失敗，請確認帳號密碼!!';
 
-            header('Location: ../../index.html');
+            header('Location: ../../index.php');
         }
     }else{
         
         $_SESSION['msg'] = '請輸入帳號或密碼!!';
         //使用 PHP header 來轉址 返回登入頁
-        header('Location: ../../index.html');
+        header('Location: ../../index.php');
     }
 ?>
