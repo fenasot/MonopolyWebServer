@@ -1,7 +1,7 @@
 <?php
     session_start();
     header("Content-Type:text/html; charset=utf-8");
-    require_once 'config.php';
+    require_once 'php/config.php';
 
     $un = $_SESSION['acc'];
     $sql = "SELECT * FROM useracc WHERE acc ='$un'";
@@ -17,11 +17,11 @@
   <title></title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" type="text/css" href="../css/fullPage.css">
-  <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
-  <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-  <link rel="stylesheet" type="text/css" href="../css/indexstyle.css"> 
-  <script src="../js/verify.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/fullPage.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/indexstyle.css"> 
+  <script src="js/verify.js"></script>
 
 </head>
 <body>
@@ -63,11 +63,11 @@
                    ?></p></li>
                 </ul>
               </div>
-              <form method="post" style="display: inline" action="weekawardtab.php">
+              <form method="post" style="display: inline" action="php/weekawardtab.php">
                  <input class="submit"  name="weekaward" type="submit" value="領取本周骰子">
               </form>
               <figcaption>    </figcaption>
-              <form method="post" style="display: inline" action="givepoint.php">
+              <form method="post" style="display: inline" action="php/givepoint.php">
                   <input class="submit"  name="givepoint" type="submit" value="領取點數">
               </form>
 
@@ -85,12 +85,12 @@
 
 
 
-<script type="text/javascript" src="../js/jquery.min.js"></script>
-<script src="../js/jquery-ui-1.10.3.min.js"></script>
-<script src="../js/fullPage.min.js"></script>
-<script src="../js/plugin.js"></script>
-<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
-<script src="../js/more.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/jquery-ui-1.10.3.min.js"></script>
+<script src="js/fullPage.min.js"></script>
+<script src="js/plugin.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/more.js"></script>
 
 
 
