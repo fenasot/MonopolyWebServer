@@ -43,12 +43,12 @@
             //在session 存一個 msg 變數
             $_SESSION['msg'] = '登入失敗，請確認帳號密碼!!';
 
-            header('Location: ../../index.php');
+            header('Location: ../../index.html');
         }
     }else{
         
         $_SESSION['msg'] = '請輸入帳號或密碼!!';
         //使用 PHP header 來轉址 返回登入頁
-        header('Location: ../../index.php');
+        header('Location: ../../index.html');
     }
 ?>

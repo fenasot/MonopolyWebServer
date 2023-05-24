@@ -19,7 +19,7 @@
         echo "<script>alert('New record created successfully');  location.href= '../../index.html' </script>";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
-        header('Location: ../../index.php');
+        header('Location: ../../index.html');
     }
 
 ?>
