@@ -3,7 +3,7 @@ This is a university topic about how a travel site promote number of tourists.
 
 We are trying to use this case to enhance flow of people and let then willing to visit various attractions.
 
-How to use this site
+<h1>How to use this site</h1>
 
 1. Open the URL and create a new account.
 2. Use the account just created to login.
