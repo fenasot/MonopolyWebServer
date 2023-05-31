@@ -11,3 +11,5 @@ We are trying to use this case to enhance flow of people and let then willing to
 4. Use dice to play game.
 5. Webiste will ask user's GPS permissions, if user's location now is same as game's location, user will get some points.
 6. user can use points or credit card to buy goods.
+
+![image](https://github.com/fenasot/MonopolyWebServer/assets/79359861/0dac1865-9407-483e-a485-3a125b659c91)
