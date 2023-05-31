@@ -29,7 +29,7 @@ We are trying to use this case to enhance flow of people and let then willing to
 ![image](https://github.com/fenasot/MonopolyWebServer/assets/79359861/0dac1865-9407-483e-a485-3a125b659c91)
 
 
-<h1>Precaitions<h1>
+<h1>Precaitions</h1>
 
   Because we aren't put this site to internet, if you want run this site, need download this project and let index.html be localhost's front page. 
   
