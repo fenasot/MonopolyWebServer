@@ -10,4 +10,3 @@ $gamedata = $data["userlocation"] . "a". $data["dice"];
 echo $gamedata;
 
 exit();
-?>
